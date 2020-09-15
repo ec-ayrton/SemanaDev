@@ -1,0 +1,6 @@
+package com.devsuperior.dspesquisa.entities;
+
+public class Game {
+	private long id;
+	private String title;
+}

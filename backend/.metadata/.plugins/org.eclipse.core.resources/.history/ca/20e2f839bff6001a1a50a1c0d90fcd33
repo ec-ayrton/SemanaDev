@@ -1,0 +1,17 @@
+package com.devsuperior.dspesquisa.entities;
+
+import java.io.Serializable;
+import java.time.Instant;
+
+public class Record implements Serializable{
+	private static final long serialVersionUID = 1L;
+	
+	private Long id;
+	private String name;
+	private Integer age;
+	private Instant moment;
+	
+	private Game game;
+	
+	
+}

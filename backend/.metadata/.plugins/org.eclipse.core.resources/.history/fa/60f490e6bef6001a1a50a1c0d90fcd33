@@ -1,0 +1,9 @@
+package com.devsuperior.dspesquisa.entities;
+
+public class Record {
+	
+	private Long id;
+	private String name;
+	private Integer age;
+	private Instante moment;
+}

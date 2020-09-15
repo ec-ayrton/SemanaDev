@@ -1,0 +1,13 @@
+package com.devsuperior.dspesquisa.entities;
+
+import com.devsuperior.dspesquisa.enums.Platform;
+
+public class Game {
+	private long id;
+	private String title;
+	private Platform platform;
+	
+	private Genre genre;
+	
+	
+}
