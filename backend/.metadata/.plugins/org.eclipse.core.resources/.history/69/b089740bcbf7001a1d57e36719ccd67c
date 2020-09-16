@@ -1,0 +1,5 @@
+package com.devsuperior.dspesquisa.Config;
+
+public class SecurityConfig {
+
+}

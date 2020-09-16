@@ -606,3 +606,60 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2020-09-15 23:14:48.707
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:17:53.684
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:17:53.695
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:17:53.705
+!MESSAGE buffering callback sts4.classpath.IiQljlzP dspesquisa false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:17:53.706
+!MESSAGE executing callback sts4.classpath.IiQljlzP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:17:53.725
+!MESSAGE executing callback sts4.classpath.IiQljlzP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:02.221
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:02.236
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:02.245
+!MESSAGE buffering callback sts4.classpath.IiQljlzP dspesquisa false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:02.246
+!MESSAGE executing callback sts4.classpath.IiQljlzP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:02.273
+!MESSAGE executing callback sts4.classpath.IiQljlzP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:23.477
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:23.498
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:23.504
+!MESSAGE buffering callback sts4.classpath.IiQljlzP dspesquisa false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:23.505
+!MESSAGE executing callback sts4.classpath.IiQljlzP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-16 00:18:23.578
+!MESSAGE executing callback sts4.classpath.IiQljlzP SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-09-16 00:18:25.081
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
