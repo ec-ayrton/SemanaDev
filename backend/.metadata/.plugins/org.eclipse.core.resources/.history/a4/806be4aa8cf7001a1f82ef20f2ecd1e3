@@ -1,0 +1,26 @@
+package com.devsuperior.dspesquisa.resources;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.devsuperior.dspesquisa.DTO.RecordDTO;
+import com.devsuperior.dspesquisa.services.RecordService;
+
+@RestController
+@RequestMapping(value = "/Records")
+public class RecordResource {
+	
+	@Autowired
+	private RecordService service;
+	
+	@GetMapping
+	public ResponseEntity<List<RecordDTO>> findAll(){
+		List<RecordDTO> list = service.findAll();
+		return ResponseEntity.ok().body(list);
+	}
+}

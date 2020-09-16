@@ -1,0 +1,29 @@
+package com.devsuperior.dspesquisa.DTO;
+
+import java.time.Instant;
+
+import com.devsuperior.dspesquisa.entities.Record;
+import com.devsuperior.dspesquisa.enums.Platform;
+
+public class RecordDTO {
+	private Long id;
+	private String name;
+	private Integer age;
+	private Instant moment;
+	private String gameTitle;
+	private Platform platform;
+	private String genreName;
+	
+	public RecordDTO() {
+		
+	}
+	public RecordDTO(Record entity) {
+		id = entity.getId();
+		moment= entity.getMoment();
+		name = entity.getName();
+		age=entity.getAge();
+		gameTitle = entity.getGame().getTitle();
+		platform=entity.getGame().getPlatform();
+		genreName = en
+	}
+}

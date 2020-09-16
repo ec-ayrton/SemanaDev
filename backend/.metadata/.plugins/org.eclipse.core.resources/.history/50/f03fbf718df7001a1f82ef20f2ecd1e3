@@ -1,0 +1,10 @@
+package com.devsuperior.dspesquisa.DTO;
+
+import java.time.Instant;
+
+public class RecordDTO {
+	private Long id;
+	private String name;
+	private Integer age;
+	private Instant moment;
+}

@@ -1,0 +1,8 @@
+package com.devsuperior.dspesquisa.DTO;
+
+public class RecordInsertDTO {
+	
+	private String name;
+	private Integer age;
+	private long gameId;
+}
