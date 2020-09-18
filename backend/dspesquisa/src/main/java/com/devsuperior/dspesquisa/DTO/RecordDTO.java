@@ -7,12 +7,16 @@ import com.devsuperior.dspesquisa.entities.Record;
 import com.devsuperior.dspesquisa.enums.Platform;
 
 public class RecordDTO implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Long id;
 	private String name;
 	private Integer age;
 	private Instant moment;
 	private String gameTitle;
-	private Platform platform;
+	private Platform gamePlatform;
 	private String genreName;
 	
 	public RecordDTO() {
@@ -24,7 +28,7 @@ public class RecordDTO implements Serializable{
 		name = entity.getName();
 		age=entity.getAge();
 		gameTitle = entity.getGame().getTitle();
-		platform=entity.getGame().getPlatform();
+		gamePlatform=entity.getGame().getPlatform();
 		genreName = entity.getGame().getGenre().getName();
 	}
 	public Long getId() {
@@ -58,10 +62,10 @@ public class RecordDTO implements Serializable{
 		this.gameTitle = gameTitle;
 	}
 	public Platform getPlatform() {
-		return platform;
+		return gamePlatform;
 	}
 	public void setPlatform(Platform platform) {
-		this.platform = platform;
+		this.gamePlatform = platform;
 	}
 	public String getGenreName() {
 		return genreName;
